@@ -12,15 +12,14 @@ use Support\Controller;
 
 final class SendCoinbaseEmailAction extends Controller
 {
-    public function __invoke(
-        SendMailUseCase $sendMailUseCase,
-    ): JsonResponse {
+    public function __invoke(): JsonResponse
+    {
         try {
             $accounts = (new FetchAccountsUseCase())->execute();
 
             $accounts = (new AccountTransformer())->transform($accounts);
 
-            $sendMailUseCase->execute($accounts);
+            (new SendMailUseCase())->execute($accounts);
         } catch (\Exception $exception) {
             return new JsonResponse([
                 'success' => false,

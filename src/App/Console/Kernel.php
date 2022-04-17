@@ -5,12 +5,22 @@ declare(strict_types=1);
 namespace App\Console;
 
 use App\Coinbase\Actions\SendCoinbaseEmailAction;
+use App\Coinbase\Commands\SendMailCommand;
 use Domain\Coinbase\UseCases\SendMailUseCase;
 use Illuminate\Console\Scheduling\Schedule;
 use Laravel\Lumen\Console\Kernel as ConsoleKernel;
 
 final class Kernel extends ConsoleKernel
 {
+    /**
+     * The Artisan commands provided by your application.
+     *
+     * @var array<class-string|string>
+     */
+    protected $commands = [
+        SendMailCommand::class,
+    ];
+
     /**
      * Define the application's command schedule.
      *
@@ -19,9 +29,7 @@ final class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        $schedule->call(function (SendMailUseCase $sendMailUseCase) {
-            (new SendCoinbaseEmailAction())->__invoke($sendMailUseCase);
-        })->dailyAt(config('mail.schedule_at'));
+        $schedule->command('send:mail')->dailyAt(config('mail.schedule_at'));
 
         if (config('ovh.scheduler_workaround_enabled')) {
             $this->scheduleRunsHourly($schedule);

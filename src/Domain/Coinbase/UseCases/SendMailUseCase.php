@@ -12,9 +12,9 @@ final class SendMailUseCase
 {
     private Mailer $mailer;
 
-    public function __construct(Mailer $mailer)
+    public function __construct()
     {
-        $this->mailer = $mailer;
+        $this->mailer = app(Mailer::class);
     }
 
     public function execute(Collection $accounts): void
