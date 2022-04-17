@@ -23,9 +23,9 @@ final class Kernel extends ConsoleKernel
             (new SendCoinbaseEmailAction())->__invoke($sendMailUseCase);
         })->dailyAt(config('mail.schedule_at'));
 
-//        if (config('ovh.scheduler_workaround_enabled')) {
-//            $this->scheduleRunsHourly($schedule);
-//        }
+        if (config('ovh.scheduler_workaround_enabled')) {
+            $this->scheduleRunsHourly($schedule);
+        }
     }
 
     /**
