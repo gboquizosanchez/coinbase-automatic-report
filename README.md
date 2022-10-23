@@ -3,7 +3,7 @@
 
 ## Automatic report
 
-Once is deployed send an automatic report with accounts status of your criptos. 
+Once is deployed send an automatic report with accounts status of your criptos.
 
 ## Starting 🚀
 It is necessary an API key from Coinbase. You can create it in [this url](https://www.coinbase.com/settings/api).
@@ -25,16 +25,15 @@ And that's all! Enjoy! 😉
 ## Working with ⚙️
 ![Composer](https://img.shields.io/badge/composer.lock-commited-blue)
 ### PHP dependencies 📦
-- Illuminate Mail [![Latest Stable Version](https://img.shields.io/badge/stable-v9.8.1-blue)](https://packagist.org/packages/illuminate/mail)
-- Laravel Lumen Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v9.0.2-blue)](https://packagist.org/packages/laravel/lumen-framework)
+- Illuminate Mail [![Latest Stable Version](https://img.shields.io/badge/stable-v9.36.4-blue)](https://packagist.org/packages/illuminate/mail)
+- Laravel Lumen Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v9.1.4-blue)](https://packagist.org/packages/laravel/lumen-framework)
 - Neto737 Coinbase [![Latest Stable Version](https://img.shields.io/badge/stable-v2.9.0-blue)](https://packagist.org/packages/neto737/coinbase)
 
 #### Develop dependencies 🔧
-- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.19.0-blue)](https://packagist.org/packages/fakerphp/faker)
-- Hermes Dependencies [![Latest Stable Version](https://img.shields.io/badge/stable-1.1.1-blue)](https://packagist.org/packages/hermes/dependencies)
-- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.13.9-blue)](https://packagist.org/packages/laravel/sail)
-- Mockery Mockery [![Latest Stable Version](https://img.shields.io/badge/stable-1.5.0-blue)](https://packagist.org/packages/mockery/mockery)
-- Phpunit Phpunit [![Latest Stable Version](https://img.shields.io/badge/stable-9.5.20-blue)](https://packagist.org/packages/phpunit/phpunit)
+- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.20.0-blue)](https://packagist.org/packages/fakerphp/faker)
+- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.16.2-blue)](https://packagist.org/packages/laravel/sail)
+- Mockery Mockery [![Latest Stable Version](https://img.shields.io/badge/stable-1.5.1-blue)](https://packagist.org/packages/mockery/mockery)
+- Phpunit Phpunit [![Latest Stable Version](https://img.shields.io/badge/stable-9.5.25-blue)](https://packagist.org/packages/phpunit/phpunit)
 - Roave Security Advisories [![Latest Stable Version](https://img.shields.io/badge/stable-latest-red)](https://packagist.org/packages/roave/security-advisories)
 
 ## Author ✒️
