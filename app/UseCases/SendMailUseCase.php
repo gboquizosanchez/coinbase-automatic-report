@@ -23,7 +23,7 @@ final class SendMailUseCase
 
     private function sendMessage(string $message): void
     {
-        Mail::to(config('mail.from.address'))->send(
+        Mail::to(config('mail.from.to'))->send(
             new DailyReportMail($message),
         );
     }
