@@ -13,14 +13,16 @@ It is necessary an API key from Coinbase. You can create it in [this url](https:
 - PHP version 8.3 or higher.
 
 ## Running 🛠️
-`COINBASE_API_KEY` and `COINBASE_SECRET_API_KEY` must be filled. And `COINBASE_USERNAME` is recommendable if you want mail to say your name! 😀️
+`COINBASE_API_KEY` and `COINBASE_SECRET_API_KEY` must be set. Additionally, setting `COINBASE_USERNAME` is recommended for personalized emails.
 
-Once those settings are set, you have to fill `MAIL` variables too. Or just put `MAIL_MAILER` into `log` if you want to try this project in local.
+After configuring these settings, fill in the `MAIL` variables. Alternatively, set `MAIL_MAILER` to `log` for local testing.
 
-Only one setting more! `MAIL_SCHEDULE_AT` is the hour you want to execute your daily mail report.
-If all is set properly has to run: `php artisan schedule:run` and mail will be sent to you if hour is set properly.
+Set `MAIL_FROM_ADDRESS` and `MAIL_FROM_NAME` with your email and name, and `MAIL_TO_ADDRESS` with the recipient's email.
 
-And that's all! Enjoy! 😉
+Finally, set `MAIL_SCHEDULE_AT` to the desired time for the daily email report.
+If everything is configured correctly, run `php artisan schedule:run` to send the email at the specified time.
+
+That's it! Enjoy! 😉
 
 ## Working with ⚙️
 ![Composer](https://img.shields.io/badge/composer.lock-commited-blue)
