@@ -27,18 +27,17 @@ That's it! Enjoy! 😉
 ## Working with ⚙️
 ![Composer](https://img.shields.io/badge/composer.lock-commited-blue)
 ### PHP dependencies 📦
-- Laravel Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v11.30.0-blue)](https://packagist.org/packages/laravel/framework)
+- Laravel Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v11.31.0-blue)](https://packagist.org/packages/laravel/framework)
 - Laravel Tinker [![Latest Stable Version](https://img.shields.io/badge/stable-v2.10.0-blue)](https://packagist.org/packages/laravel/tinker)
 - Neto737 Coinbase [![Latest Stable Version](https://img.shields.io/badge/dev-stable-latest)](https://packagist.org/packages/neto737/coinbase)
 
 #### Develop dependencies 🔧
-- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.23.1-blue)](https://packagist.org/packages/fakerphp/faker)
-- Friendsofphp Php Cs Fixer [![Latest Stable Version](https://img.shields.io/badge/stable-v3.64.0-blue)](https://packagist.org/packages/friendsofphp/php-cs-fixer)
+- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.24.0-blue)](https://packagist.org/packages/fakerphp/faker)
 - Hermes Dependencies [![Latest Stable Version](https://img.shields.io/badge/stable-1.1.1-blue)](https://packagist.org/packages/hermes/dependencies)
 - Larastan Larastan [![Latest Stable Version](https://img.shields.io/badge/stable-v2.9.0-blue)](https://packagist.org/packages/larastan/larastan)
-- Laravel Pail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.2.0-blue)](https://packagist.org/packages/laravel/pail)
+- Laravel Pail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.2.1-blue)](https://packagist.org/packages/laravel/pail)
 - Laravel Pint [![Latest Stable Version](https://img.shields.io/badge/stable-v1.18.1-blue)](https://packagist.org/packages/laravel/pint)
-- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.37.1-blue)](https://packagist.org/packages/laravel/sail)
+- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.38.0-blue)](https://packagist.org/packages/laravel/sail)
 - Mockery Mockery [![Latest Stable Version](https://img.shields.io/badge/stable-1.6.12-blue)](https://packagist.org/packages/mockery/mockery)
 - Nunomaduro Collision [![Latest Stable Version](https://img.shields.io/badge/stable-v8.5.0-blue)](https://packagist.org/packages/nunomaduro/collision)
 - Pestphp Pest [![Latest Stable Version](https://img.shields.io/badge/stable-v3.5.1-blue)](https://packagist.org/packages/pestphp/pest)
