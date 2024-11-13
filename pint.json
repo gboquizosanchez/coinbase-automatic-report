@@ -4,7 +4,16 @@
     "packages/coinbase-php"
   ],
   "rules": {
+    "types_spaces": {
+      "space": "single"
+    },
     "group_import": true,
+    "new_with_parentheses": {
+      "anonymous_class": false
+    },
+    "ordered_imports": {
+      "sort_algorithm": "alpha"
+    },
     "ordered_types": {
       "null_adjustment": "always_last"
     },
