@@ -27,21 +27,21 @@ That's it! Enjoy! 😉
 ## Working with ⚙️
 ![Composer](https://img.shields.io/badge/composer.lock-commited-blue)
 ### PHP dependencies 📦
-- Laravel Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v11.31.0-blue)](https://packagist.org/packages/laravel/framework)
+- Laravel Framework [![Latest Stable Version](https://img.shields.io/badge/stable-v11.39.1-blue)](https://packagist.org/packages/laravel/framework)
 - Laravel Tinker [![Latest Stable Version](https://img.shields.io/badge/stable-v2.10.0-blue)](https://packagist.org/packages/laravel/tinker)
 - Neto737 Coinbase [![Latest Stable Version](https://img.shields.io/badge/dev-stable-latest)](https://packagist.org/packages/neto737/coinbase)
 
 #### Develop dependencies 🔧
-- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.24.0-blue)](https://packagist.org/packages/fakerphp/faker)
+- Fakerphp Faker [![Latest Stable Version](https://img.shields.io/badge/stable-v1.24.1-blue)](https://packagist.org/packages/fakerphp/faker)
 - Hermes Dependencies [![Latest Stable Version](https://img.shields.io/badge/stable-1.1.1-blue)](https://packagist.org/packages/hermes/dependencies)
 - Larastan Larastan [![Latest Stable Version](https://img.shields.io/badge/stable-v2.9.0-blue)](https://packagist.org/packages/larastan/larastan)
 - Laravel Pail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.2.1-blue)](https://packagist.org/packages/laravel/pail)
-- Laravel Pint [![Latest Stable Version](https://img.shields.io/badge/stable-v1.18.1-blue)](https://packagist.org/packages/laravel/pint)
-- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.38.0-blue)](https://packagist.org/packages/laravel/sail)
+- Laravel Pint [![Latest Stable Version](https://img.shields.io/badge/stable-v1.20.0-blue)](https://packagist.org/packages/laravel/pint)
+- Laravel Sail [![Latest Stable Version](https://img.shields.io/badge/stable-v1.40.0-blue)](https://packagist.org/packages/laravel/sail)
 - Mockery Mockery [![Latest Stable Version](https://img.shields.io/badge/stable-1.6.12-blue)](https://packagist.org/packages/mockery/mockery)
-- Nunomaduro Collision [![Latest Stable Version](https://img.shields.io/badge/stable-v8.5.0-blue)](https://packagist.org/packages/nunomaduro/collision)
-- Pestphp Pest [![Latest Stable Version](https://img.shields.io/badge/stable-v3.5.1-blue)](https://packagist.org/packages/pestphp/pest)
-- Phpunit Phpunit [![Latest Stable Version](https://img.shields.io/badge/stable-11.4.3-blue)](https://packagist.org/packages/phpunit/phpunit)
+- Nunomaduro Collision [![Latest Stable Version](https://img.shields.io/badge/stable-v8.6.1-blue)](https://packagist.org/packages/nunomaduro/collision)
+- Pestphp Pest [![Latest Stable Version](https://img.shields.io/badge/stable-v3.7.4-blue)](https://packagist.org/packages/pestphp/pest)
+- Phpunit Phpunit [![Latest Stable Version](https://img.shields.io/badge/stable-11.5.3-blue)](https://packagist.org/packages/phpunit/phpunit)
 - Roave Security Advisories [![Latest Stable Version](https://img.shields.io/badge/latest-main-latest)](https://packagist.org/packages/roave/security-advisories)
 
 ## Author ✒️
